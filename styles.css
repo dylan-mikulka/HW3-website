@@ -9,15 +9,15 @@
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: dimgray;
 }
 
 body {
-    background-color: #4a7c6b;
+    background-color: seagreen;
 }
 
 .navbar {
-    background-color: #2d5f4f;
+    background-color: darkslategray;
     padding: 1rem 0;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    background-color: #3498db;
+    background-color: dodgerblue;
 }
 
 .container {
@@ -49,12 +49,12 @@ body {
 }
 
 header h1 {
-    color: #2d5f4f;
+    color: darkslategray;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
     padding-bottom: 1rem;
-    border-bottom: 3px solid #3498db;
+    border-bottom: 3px solid dodgerblue;
 }
 
 main {
@@ -70,7 +70,7 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 3px solid #76b39d;
+    border: 3px solid mediumaquamarine;
 }
 
 section {
@@ -79,15 +79,15 @@ section {
 }
 
 h2 {
-    color: #2d5f4f;
+    color: darkslategray;
     font-size: 2rem;
     margin-bottom: 1rem;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid dodgerblue;
     padding-left: 1rem;
 }
 
 h3 {
-    color: #2d5f4f;
+    color: darkslategray;
     font-size: 1.5rem;
     margin: 1.5rem 0 1rem 0;
 }
@@ -109,7 +109,7 @@ p {
 }
 
 .contact-section {
-    background-color: #e8f4f0;
+    background-color: mintcream;
     padding: 2rem;
     border-radius: 8px;
     margin-top: 2rem;
@@ -126,12 +126,12 @@ p {
 }
 
 .contact-links a {
-    color: #3498db;
+    color: dodgerblue;
     text-decoration: none;
 }
 
 .contact-links a:hover {
-    color: #2d5f4f;
+    color: darkslategray;
     text-decoration: underline;
 }
 
@@ -139,8 +139,8 @@ footer {
     text-align: center;
     margin-top: 2rem;
     padding-top: 1.5rem;
-    border-top: 2px solid #76b39d;
-    color: #666;
+    border-top: 2px solid mediumaquamarine;
+    color: gray;
 }
 
 @media (max-width: 768px) {
