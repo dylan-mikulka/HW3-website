@@ -47,12 +47,12 @@ body {
 
 
 
-
+/* riverish color to fit the theme */
 .navbar a:hover,
 .navbar a.active {
     background-color: dodgerblue;
 }
-
+/* styling the page for the postcard feel*/
 .container {
     max-width: 900px;
     margin: 2rem auto;
@@ -84,7 +84,7 @@ main {
     text-align: center;
     margin: 2rem 0;
 }
-
+/* image styling to fit the nature/postcard vibe */
 .featured-image {
     max-width: 100%;
     height: auto;
@@ -93,12 +93,12 @@ main {
 }
 
 
-
+/* adding vertical space between all sections for readability */
 section {
     margin: 2rem 0;
     padding: 1.5rem;
 }
-
+/* subheaders styling */
 h2 {
     color: darkslategray;
     font-size: 2rem;
@@ -108,7 +108,7 @@ h2 {
 }
 
 
-
+/* making smaller sunheaders */
 h3 {
     color: darkslategray;
     font-size: 1.5rem;
@@ -132,7 +132,7 @@ p {
 .projects-list li {
     margin: 0.8rem 0;
 }
-
+/* contact sections styling to make it pop off the page */
 .contact-section {
     background-color: mintcream;
     padding: 2rem;
@@ -157,7 +157,7 @@ p {
 
 
 
-
+/* semi-intyeractive contact feature */
 .contact-links a:hover {
     color: darkslategray;
     text-decoration: underline;
@@ -171,18 +171,4 @@ footer {
     color: gray;
 }
 
-
-
-
-@media (max-width: 768px) {
-    .container {
-        margin: 1rem;
-        padding: 1.5rem;
-    }
-    
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
 }
